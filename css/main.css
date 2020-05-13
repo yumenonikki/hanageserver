@@ -1,0 +1,55 @@
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: white;
+}
+
+.jumbotron-main {
+    position: relative;
+    height: 100vh;
+    min-height: 300px;
+    background: url(../img/central-night.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 200);
+}
+
+.jumbotron-main-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-55%);
+}
+
+.ip-info {
+    margin-top: 1em;
+}
+
+.container-m {
+    margin-top: 5em;
+}
+
+@media only screen and (max-width:768px){
+    .box{
+        margin-bottom:2em;
+    }
+}
+
+.content-title {
+    margin-bottom: 5em;
+}
+
+footer {
+    margin-top: 3em;
+    float: right;
+}
+
+.rotate{
+    color: rgb(24, 71, 18);
+    transform: rotate(-5deg);
+}
+
+p {
+    font-size: 1.5rem;
+}
